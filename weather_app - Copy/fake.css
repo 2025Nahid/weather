@@ -1,0 +1,30 @@
+.current-weather-card .weaper {
+    margin-block: 12px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.temperature-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    gap: 8px; /* Space between temperature and icon */
+}
+
+.current-weather-card .divider {
+    width: 100%; /* Full width divider */
+    border: 2px solid; /* Remove default border */
+    border-top: 1px solid var(--outline); /* Add a top border for the line */
+    margin: 12px 0; /* Space above and below the line */
+}
+
+.current-weather-card .body-3 {
+    text-transform: capitalize;
+   
+}
+
+.current-weather-card .meta-list {
+    margin-block-start: 16px;
+    padding-block-start: 16px;
+    border-block-start: 1px solid var(--outline);
+}
